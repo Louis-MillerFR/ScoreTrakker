@@ -12,4 +12,7 @@ public class Student {
 		this.name = name;
 		this.score = score;
 	}
+	public String toString() {
+		return name + " " + score;
+	}
 }
